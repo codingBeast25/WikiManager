@@ -1,0 +1,169 @@
+Enter File name with .txt extension: 
+data.txt
+
+CONFIRMED: User mike created.
+
+CONFIRMED: Document: Object_Oriented_Programming by mike created successfully
+
+CONFIRMED: Document: Operating_System by mike created successfully
+
+NOT FOUND: User ali is not created yet.
+
+SUCCESS: OO programming is awesome. appended successfully to Object_Oriented_Programming
+
+NOT FOUND: Document Graph_Theory is not created yet.
+
+SUCCESS: I love OO programing. appended successfully to Object_Oriented_Programming
+
+SUCCESS: everyone likes pointers in Cpp appended successfully to Object_Oriented_Programming
+
+NOT FOUND: Document Graph_Theory is not created yet.
+
+NOT FOUND: Document Graph_Theory is not created yet.
+
+FAILED: Line Number 5 in Object_Oriented_Programming does not exist.
+
+CONFIRMED: User ali created.
+
+CONFIRMED: Document: Graph_Theory by ali created successfully
+
+NOT FOUND: Document Human_Computer_Interaction is not created yet.
+
+DUPLICATE: mike already exist.
+
+NOT FOUND: User john is not created yet.
+
+NOT FOUND: Document Human_Computer_Interaction is not created yet.
+
+NOT FOUND: Graph_Theory was not created at or before 5 yet.
+SUCCESS: everyone likes pointers in Cpp is replaced by Pointers are useful in Cpp
+FAILED: This line is not present.
+
+SUCCESS: graph theory is an interesting course appended successfully to Graph_Theory
+
+NOT FOUND: User john is not created yet.
+
+NOT FOUND: History_of_programming_languages is not created yet.
+
+NOT FOUND: User John is not created yet.
+
+NOT FOUND: Document Automata_Theory is not created yet.
+
+DUPLICATE: Document: Object_Oriented_Programming is already created by mike
+
+CONFIRMED: User john created.
+
+NOT FOUND: Graph_Theory was not created at or before 15 yet.
+
+NOT FOUND: Document Java_Programming_language is not created yet.
+
+--------------------------------
+Document Name: Graph_Theory
+0.graph theory is an interesting course
+--------------------------------
+
+DUPLICATE: Document: Graph_Theory is already created by ali
+
+NOT FOUND: Document Java_Programming_language is not created yet.
+
+FAILED: Line Number 1 in Graph_Theory does not exist.
+
+SUCCESS: Line Number 0 from Graph_Theory is deleted.
+
+FAILED: Line Number 0 in Graph_Theory does not exist.
+
+SUCCESS: Graph_Theory is restored.
+
+SUCCESS: Object_Oriented_Programming is restored.
+
+SUCCESS: Object_Oriented_Programming is restored.
+
+NOT FOUND: Document Automata_Theory is not created yet.
+
+--------------------------------
+Document Name: Object_Oriented_Programming
+0.OO programming is awesome.
+1.I love OO programing.
+2.everyone likes pointers in Cpp
+--------------------------------
+
+NOT FOUND: Document Human_Computer_Interaction is not created yet.
+
+--------------------------------
+Document Name: Graph_Theory
+0.graph theory is an interesting course
+--------------------------------
+
+--------------------------------
+Document Name: Operating_System
+--------------------------------
+
+NOT FOUND: Automata_Theory does not exists in Document Directory.
+
+
+History of Document: Object_Oriented_Programming
+------------------------------
+-> CREATE performed by mike
+-> APPEND performed by mike, Line APPENDED was: OO programming is awesome.
+-> APPEND performed by mike, Line APPENDED was: I love OO programing.
+-> RESTORE performed by mike, Object_Oriented_Programming was restored to time 25
+------------------------------
+
+
+NOT FOUND: Human_Computer_Interaction does not exists in Document Directory.
+
+
+History of Document: Graph_Theory
+------------------------------
+-> CREATE performed by ali
+-> RESTORE performed by ali, Graph_Theory was restored to time 32
+------------------------------
+
+
+
+History of Document: Operating_System
+------------------------------
+-> CREATE performed by mike
+------------------------------
+
+
+NOT FOUND: andrea does not exists in User Directory.
+
+Report for userID: ali
+------------------------------
+-> CREATED Graph_Theory
+-> graph theory is an interesting course was APPENDED to Graph_Theory.
+-> 0.graph theory is an interesting course was DELETED in Graph_Theory.
+-> RESTORED Graph_Theory to time 32.
+
+------------------------------
+
+
+Report for userID: mike
+------------------------------
+-> CREATED Object_Oriented_Programming
+-> CREATED Operating_System
+-> OO programming is awesome. was APPENDED to Object_Oriented_Programming.
+-> I love OO programing. was APPENDED to Object_Oriented_Programming.
+-> everyone likes pointers in Cpp was APPENDED to Object_Oriented_Programming.
+-> 2.everyone likes pointers in Cpp was REPLACED by Pointers are useful in Cpp in Object_Oriented_Programming.
+-> RESTORED Object_Oriented_Programming to time 18.
+-> RESTORED Object_Oriented_Programming to time 25.
+
+------------------------------
+
+
+NOT FOUND: mary does not exists in User Directory.
+
+Report for userID: john
+------------------------------
+
+------------------------------
+
+
+CONFIRMED: Document: Discrete_Math by mike created successfully
+
+SUCCESS: Discrete math is the study of math that is discreet appended successfully to Discrete_Math
+NOT FOUND: User michael is not created yet.
+FAILED: This line is not present.
+BYE
